@@ -1,0 +1,221 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,700);body {
+  background: #fcfcfc;
+  font-family: "Montserrat", sans-serif;
+}
+
+input,
+textarea,
+select {
+  border: solid 2px #1f497d !important;
+}
+
+input:-moz-read-only {
+  background: #cccccc;
+}
+
+input:read-only {
+  background: #cccccc;
+}
+
+.select2-search__field {
+  border: none !important;
+}
+
+.is-invalid {
+  border: solid 2px #DC3545 !important;
+}
+
+.is-valid {
+  border: solid 2px #27AE60 !important;
+}
+
+.invalid-feedback {
+  color: #DC3545;
+}
+
+.btn-primary {
+  background: #4a60c6 !important;
+}
+
+.btn-success {
+  background: #27AE60 !important;
+}
+
+.btn-secondary {
+  background: #5A6268 !important;
+  color: #ffffff;
+}
+
+.btn-outline-primary {
+  background: #ffffff;
+  border: solid 1px #4a60c6;
+  color: #4a60c6;
+}
+
+.btn-outline-primary .active,
+.btn-outline-primary :hover {
+  background: #4a60c6;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+}
+
+.btn-group {
+  -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+  font-family: 'FontAwesome';
+}
+
+table.dataTable thead .sorting:after {
+  content: "\F0DC";
+}
+
+table.dataTable thead .sorting_asc:after {
+  content: "\F0DE";
+}
+
+table.dataTable thead .sorting_desc:after {
+  content: "\F0DD";
+}
+
+.default-thumbnail {
+  max-width: 196px;
+}
+
+.file-hidden {
+  display: none;
+}
+
+.navbar.navbar-default {
+  background-image: -webkit-gradient(linear, left top, right top, from(#1f497d), to(#1fc9bc));
+  background-image: linear-gradient(to right, #1f497d, #1fc9bc);
+  -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+  color: #ffffff;
+}
+
+.navbar.navbar-default button {
+  background: none !important;
+}
+
+.navbar.navbar-default .dropdown-menu {
+  border: none;
+  background: #1fc9bc;
+}
+
+.navbar.navbar-default .dropdown-menu a {
+  color: #ffffff;
+}
+
+.navbar.navbar-default .dropdown-menu li > a:focus,
+.navbar.navbar-default .dropdown-menu li > a:hover {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.navbar.navbar-default a.dropdown-toggle:focus,
+.navbar.navbar-default a.dropdown-toggle:hover {
+  color: #ffffff;
+  background: none;
+}
+
+.sidebar {
+  background: #ffffff;
+  -webkit-box-shadow: 4px 0 15px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 4px 0 15px 0 rgba(0, 0, 0, 0.12);
+}
+
+.sidebar .nav > li.expand > a,
+.sidebar .nav > li > a:focus,
+.sidebar .nav > li > a:hover {
+  background: #1fc9bc;
+  color: #ffffff;
+}
+
+.top-menu {
+  background: none;
+  top: 10px;
+  left: 25%;
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .top-menu {
+    left: 0 !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 1024px) {
+  .top-menu {
+    left: 20% !important;
+  }
+}
+
+.top-menu .nav > li > a {
+  color: #ffffff;
+  border-radius: 100px;
+}
+
+.top-menu .nav > li.active > a {
+  background: #ffffff;
+  color: #1f497d;
+}
+
+.navbar-user span,
+.navbar-user b {
+  color: #ffffff;
+}
+
+.sweet-alert {
+  background: url(/images/bg_elemen.png?4d1883f14d22b474b8eccb3484f82647) #ffffff;
+  background-size: 100%;
+}
+
+.pagination .active > a,
+.pagination .active > a:focus,
+.pagination .active > a:hover,
+.pagination .active > span,
+.pagination .active > span:focus,
+.pagination .active > span:hover {
+  background: #1f497d !important;
+}
+
+.panel {
+  -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+}
+
+.panel .panel-title {
+  font-size: 18px;
+}
+
+.panel-iris > .panel-heading {
+  color: #ffffff;
+  background: #1f497d;
+}
+
+.panel-gradient > .panel-heading {
+  color: #ffffff;
+  background-image: -webkit-gradient(linear, left top, right top, from(#1f497d), to(#1fc9bc));
+  background-image: linear-gradient(to right, #1f497d, #1fc9bc);
+}
+
+.navbar-brand img {
+  max-width: 32px;
+}
+
+.navbar-brand span.logo {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+

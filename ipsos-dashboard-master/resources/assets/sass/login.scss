@@ -1,0 +1,61 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+// Variables
+@import "variables";
+
+// Default
+@import "default";
+
+body {
+    background: url('../img/background_login@3x.png');    
+    background-size: cover;
+}
+a, a:hover {
+    color: $white;
+}
+
+.login-page {
+    margin-right: 0;
+    .login-form {
+        margin-top: 20vh;
+    }
+}
+.login-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: $white;
+}
+.login-wallpaper {
+    position: relative;
+    img {
+        display: block;
+        width: 100%;
+        max-width: 1200px; /* corresponds to max height of 450px */
+        margin: 0 auto;
+    }
+}
+.login-footer {
+    color: $white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.game-changer {
+    position: absolute;
+    bottom: 25px;
+    right: 10px;
+    span {
+        color: $white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+
+.form-reset {
+    .panel-default {
+        background: $white;
+        margin-top: 25vh;
+    }
+}

@@ -1,0 +1,74 @@
+body {
+    background: $grey;
+    font-family: $font-family-sans-serif;
+}
+
+input, textarea, select {
+    border: solid 2px $iris !important;
+}
+input:read-only {
+    background: $grey-old;
+}
+.select2-search__field {
+    border: none !important;
+}
+.is-invalid {
+    border: solid 2px $red !important;
+}
+.is-valid {
+    border: solid 2px $greentea !important;
+}
+.invalid-feedback {
+    color: $red;
+}
+
+.btn-primary {
+    background: $btn-iris !important;
+}
+.btn-success {
+    background: $greentea !important;
+}
+.btn-secondary {
+    background: $secondary !important;
+    color: $white;
+}
+
+.btn-outline-primary {
+    background: $white;
+    border: solid 1px $btn-iris;
+    color: $btn-iris;
+    .active, :hover {
+        background: $btn-iris;
+        border: solid 1px $white;
+        color: $white;
+    }
+}
+
+.btn-group {
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+  font-family: 'FontAwesome';
+}
+ 
+table.dataTable thead .sorting:after {
+  content: "\f0dc";
+}
+table.dataTable thead .sorting_asc:after {
+  content: "\f0de";
+}
+table.dataTable thead .sorting_desc:after {
+  content: "\f0dd";
+}
+
+.default-thumbnail {
+    max-width: 196px;
+}
+.file-hidden {
+    display: none;
+}

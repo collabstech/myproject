@@ -1,0 +1,83 @@
+{
+  "_from": "pptxgenjs",
+  "_id": "pptxgenjs@2.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-QcSC0f/TDMcM97O7E3NzzivLQUZ2rU08YuwKrIqX1gSd95xY4HqhfCW/UAYXYQ5YWP0uCUX5PVZDZ+eFaUNX/A==",
+  "_location": "/pptxgenjs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "pptxgenjs",
+    "name": "pptxgenjs",
+    "escapedName": "pptxgenjs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/pptxgenjs/-/pptxgenjs-2.1.0.tgz",
+  "_shasum": "3a61b5bac4feb186fdd8e4d50678307770dd6252",
+  "_spec": "pptxgenjs",
+  "_where": "C:\\laragon\\www\\ipsos-dashboard",
+  "author": {
+    "name": "Brent Ely",
+    "url": "https://github.com/gitbrent/"
+  },
+  "bugs": {
+    "url": "https://github.com/gitbrent/PptxGenJS/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "express": "^4.15.3",
+    "image-size": ">=0.5.1",
+    "is-electron": "^2.1.0",
+    "jquery": "^3.2.1",
+    "jquery-node": "^0.3.0",
+    "jszip": ">=3.1.2"
+  },
+  "deprecated": false,
+  "description": "JavaScript library that creates PowerPoint presentations",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-ignore": "^2.0.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "directories": {
+    "example": "examples",
+    "libs": "dist"
+  },
+  "homepage": "https://gitbrent.github.io/PptxGenJS/",
+  "keywords": [
+    "javascript-create-powerpoint",
+    "javascript-create-pptx",
+    "javascript-generate-pptx",
+    "javascript-pptx",
+    "javascript-powerpoint",
+    "javascript-powerpoint-charts",
+    "javascript-powerpoint-online",
+    "js-create-powerpoint",
+    "js-create-pptx",
+    "js-generate-powerpoint",
+    "js-generate-powerpoint-charts",
+    "js-powerpoint",
+    "js-powerpoint-pptx",
+    "js-powerpoint-library"
+  ],
+  "license": "MIT",
+  "main": "dist/pptxgen.js",
+  "name": "pptxgenjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitbrent/PptxGenJS.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.1.0"
+}

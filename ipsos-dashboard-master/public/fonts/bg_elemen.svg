@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1099" height="650" viewBox="0 0 1099 650">
+    <g fill="none" data-name="bg_elemen">
+        <rect width="416" height="123" fill="#1FC9BC" fill-opacity=".05" data-name="Rectangle 3" rx="61.5" transform="translate(0 527)"/>
+        <g data-name="Group 2">
+            <use fill="#D5DBF7" data-name="Vector (Stroke)" transform="translate(878.217 221)" xlink:href="#a"/>
+            <use fill="#D5DBF7" data-name="Vector (Stroke)" transform="rotate(-90 550.391 -319.608)" xlink:href="#a"/>
+        </g>
+        <g data-name="Group 2.1">
+            <use fill="#D5DBF7" data-name="Vector (Stroke)" transform="translate(444.217 442)" xlink:href="#a"/>
+            <use fill="#D5DBF7" data-name="Vector (Stroke)" transform="rotate(-90 443.892 7.892)" xlink:href="#a"/>
+        </g>
+        <g data-name="Group 2.2">
+            <use fill="#D5DBF7" data-name="Vector (Stroke)" transform="translate(842.217 498)" xlink:href="#a"/>
+            <use fill="#D5DBF7" data-name="Vector (Stroke)" transform="rotate(-90 670.891 -163.108)" xlink:href="#a"/>
+        </g>
+        <g data-name="Group 2.3">
+            <use fill="#D5DBF7" data-name="Vector (Stroke)" transform="translate(614.217 123)" xlink:href="#a"/>
+            <use fill="#D5DBF7" data-name="Vector (Stroke)" transform="rotate(-90 369.392 -236.608)" xlink:href="#a"/>
+        </g>
+        <g data-name="Mask Group">
+            <mask id="b" width="177" height="166" x="922" y="-20" maskUnits="userSpaceOnUse">
+                <path fill="#C4C4C4" d="M0 0h177v166H0z" data-name="Rectangle 4" transform="translate(922 -20)"/>
+            </mask>
+            <g mask="url(#b)">
+                <rect width="416" height="123" fill="#ADADAD" fill-opacity=".1" data-name="Rectangle 3.1" rx="61.5" transform="translate(949)"/>
+            </g>
+        </g>
+        <g stroke-width="4" data-name="Ellipse" mask="url(#c)" transform="translate(566 546)">
+            <ellipse cx="7.589" cy="7.594" stroke="#D3DAFC" rx="7.589" ry="7.594"/>
+        </g>
+        <g stroke-width="4" data-name="Ellipse" mask="url(#d)" transform="translate(401 223)">
+            <ellipse cx="7.589" cy="7.594" stroke="#D3DAFC" rx="7.589" ry="7.594"/>
+        </g>
+        <g stroke-width="4" data-name="Ellipse" mask="url(#e)" transform="translate(934 385)">
+            <ellipse cx="7.589" cy="7.594" stroke="#D3DAFC" rx="7.589" ry="7.594"/>
+        </g>
+    </g>
+    <defs>
+        <path id="a" fill-rule="evenodd" d="M0 18V0h1.565v18H0z" clip-rule="evenodd"/>
+        <mask id="c" fill="#fff">
+            <ellipse cx="7.589" cy="7.594" rx="7.589" ry="7.594"/>
+        </mask>
+        <mask id="d" fill="#fff">
+            <ellipse cx="7.589" cy="7.594" rx="7.589" ry="7.594"/>
+        </mask>
+        <mask id="e" fill="#fff">
+            <ellipse cx="7.589" cy="7.594" rx="7.589" ry="7.594"/>
+        </mask>
+    </defs>
+</svg>

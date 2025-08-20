@@ -1,0 +1,52 @@
+#projectTab {
+    background: $iris;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    li>a {
+        color: $white;
+    }
+    li>a.active {
+        color: $iris;
+    }
+    li>a:hover {
+        color: $iris;
+    }
+}
+#projectTabContent {
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.question-list {
+    overflow: scroll;
+    li {
+        line-height: 3;
+    }
+    span {
+        .question {
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .answer {
+            font-size: 16px;       
+        }
+        color: $black;
+    }
+}
+
+#accordion-question {
+    .btn-link {
+        color: $black;
+        text-decoration: none;
+    }
+    .card-header {
+        color: $black;
+        background: $grey-old;
+        cursor: pointer;
+    }
+    .card-body {
+        border: solid 1px $iris;
+        border-top: 0;
+        padding: 10px;
+        max-height: 200px;
+        overflow: scroll;
+    }
+}

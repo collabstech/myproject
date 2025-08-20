@@ -1,0 +1,20 @@
+.table-profile {
+    span {
+        color: $black;
+    }
+    .profile-name {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .profile-email {
+        font-size: 18px;
+    }
+}
+
+img.profile-avatar {
+    max-width: 160px;
+}
+
+.profile-avatar-file, .profile-avatar-edit, .profile-input, .btn-save, .btn-cancel {
+    display: none;
+}

@@ -1,0 +1,41 @@
+.containerChart {
+  height: 400px !important;
+  canvas {
+        height: 400px !important;
+  }
+}
+
+// thead > tr > th.pvtTotalLabel, .rowTotal, .pvtGrandTotal { display: none; }
+// tbody > tr > th.pvtTotalLabel, .colTotal, .pvtGrandTotal { display: none; }
+
+.pvtUi {
+  tbody {
+    tr:nth-child(1), tr:nth-child(2) {
+      display: none;
+    }
+  }
+  .pvtAxisContainer {
+    display: none;
+  }
+  .svg-container, svg {
+    width: 100% !important;
+  }
+}
+.modebar {
+  display: none;
+}
+.generate-table, .generate-chart {
+  overflow: scroll;
+  max-height: 400px;
+}
+.generate-canvas {
+  display: none;
+}
+
+.panel-report>.panel-body {
+  padding-bottom: 30px;
+}
+
+.total-data {
+  text-align: left !important;
+}

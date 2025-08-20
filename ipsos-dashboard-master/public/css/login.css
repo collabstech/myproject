@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,700);body {
+  background: #fcfcfc;
+  font-family: "Montserrat", sans-serif;
+}
+
+input,
+textarea,
+select {
+  border: solid 2px #1f497d !important;
+}
+
+input:-moz-read-only {
+  background: #cccccc;
+}
+
+input:read-only {
+  background: #cccccc;
+}
+
+.select2-search__field {
+  border: none !important;
+}
+
+.is-invalid {
+  border: solid 2px #DC3545 !important;
+}
+
+.is-valid {
+  border: solid 2px #27AE60 !important;
+}
+
+.invalid-feedback {
+  color: #DC3545;
+}
+
+.btn-primary {
+  background: #4a60c6 !important;
+}
+
+.btn-success {
+  background: #27AE60 !important;
+}
+
+.btn-secondary {
+  background: #5A6268 !important;
+  color: #ffffff;
+}
+
+.btn-outline-primary {
+  background: #ffffff;
+  border: solid 1px #4a60c6;
+  color: #4a60c6;
+}
+
+.btn-outline-primary .active,
+.btn-outline-primary :hover {
+  background: #4a60c6;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+}
+
+.btn-group {
+  -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+  font-family: 'FontAwesome';
+}
+
+table.dataTable thead .sorting:after {
+  content: "\F0DC";
+}
+
+table.dataTable thead .sorting_asc:after {
+  content: "\F0DE";
+}
+
+table.dataTable thead .sorting_desc:after {
+  content: "\F0DD";
+}
+
+.default-thumbnail {
+  max-width: 196px;
+}
+
+.file-hidden {
+  display: none;
+}
+
+body {
+  background: url(/images/background_login@3x.png?5e050fcfab8e9acd230bd08bd33c39ed);
+  background-size: cover;
+}
+
+a,
+a:hover {
+  color: #ffffff;
+}
+
+.login-page {
+  margin-right: 0;
+}
+
+.login-page .login-form {
+  margin-top: 20vh;
+}
+
+.login-logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.login-wallpaper {
+  position: relative;
+}
+
+.login-wallpaper img {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  /* corresponds to max height of 450px */
+  margin: 0 auto;
+}
+
+.login-footer {
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.game-changer {
+  position: absolute;
+  bottom: 25px;
+  right: 10px;
+}
+
+.game-changer span {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.form-reset .panel-default {
+  background: #ffffff;
+  margin-top: 25vh;
+}
+

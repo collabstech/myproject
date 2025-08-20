@@ -1,0 +1,115 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+// Variables
+@import "variables";
+
+// Default
+@import "default";
+
+.navbar.navbar-default {
+    background-image: linear-gradient(to right, $iris, $tealish);
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+    color: $white;
+    a, span, b {
+    }
+    button {
+        background: none !important;
+    }
+    .dropdown-menu {
+        border: none;
+        background: $tealish;
+        a {
+            color: $white;
+        }
+        li>a:focus, li>a:hover {
+            background: rgba(0, 0, 0, 0.12);
+        }
+    }
+    a.dropdown-toggle:focus, a.dropdown-toggle:hover {
+        color: $white;
+        background: none;
+    }
+}
+.sidebar {
+    background: $white;
+    box-shadow: 4px 0 15px 0 rgba(0, 0, 0, 0.12);
+}
+.sidebar .nav>li.expand>a, .sidebar .nav>li>a:focus, .sidebar .nav>li>a:hover {
+    background: $tealish;
+    color: $white;
+}
+
+.top-menu {
+    background: none;
+    top: 10px;
+    left: 25%;
+    width: 50%;
+    @media (max-width: 767px) {
+        left: 0 !important;
+    }
+    @media (min-width: 767px) and (max-width: 1024px) {
+        left: 20% !important;
+    }
+    .nav>li>a {
+        color: $white;
+        border-radius: 100px;
+    }
+    .nav>li.active>a {
+        background: $white;
+        color: $iris;
+    }
+}
+
+.navbar-user {
+    span,b {
+        color: $white;
+    }
+}
+
+.sweet-alert {
+    background: url('../img/bg_elemen.png') $white;
+    background-size: 100%;
+}
+
+.pagination {
+    .active>a, .active>a:focus, .active>a:hover, .active>span, .active>span:focus, .active>span:hover {
+        background: $iris !important;
+    }
+}
+
+.panel {
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);   
+    .panel-title {
+        font-size: 18px;
+    }
+}
+.panel-iris>.panel-heading {
+    color: $white;
+    background: $iris;
+}
+.panel-gradient>.panel-heading {
+    color: $white;
+    background-image: linear-gradient(to right, $iris, $tealish);
+}
+.navbar-brand {
+    img {
+        max-width: 32px;
+    }
+    span.logo {
+        font-size: 16px;
+        font-weight: bold;
+        color: $white;
+    }    
+}
+
+#footer {
+    // position: absolute;
+    // bottom: 0;
+    // border-top: none;
+}
+
+.nowrap {
+    white-space: nowrap;
+}

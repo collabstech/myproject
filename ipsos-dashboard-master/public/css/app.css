@@ -1,0 +1,245 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,700);body {
+  background: #fcfcfc;
+  font-family: "Montserrat", sans-serif;
+}
+
+input,
+textarea,
+select {
+  border: solid 2px #1f497d !important;
+}
+
+input:-moz-read-only {
+  background: #cccccc;
+}
+
+input:read-only {
+  background: #cccccc;
+}
+
+.select2-search__field {
+  border: none !important;
+}
+
+.is-invalid {
+  border: solid 2px #DC3545 !important;
+}
+
+.is-valid {
+  border: solid 2px #27AE60 !important;
+}
+
+.invalid-feedback {
+  color: #DC3545;
+}
+
+.btn-primary {
+  background: #4a60c6 !important;
+}
+
+.btn-success {
+  background: #27AE60 !important;
+}
+
+.btn-secondary {
+  background: #5A6268 !important;
+  color: #ffffff;
+}
+
+.btn-outline-primary {
+  background: #ffffff;
+  border: solid 1px #4a60c6;
+  color: #4a60c6;
+}
+
+.btn-outline-primary .active,
+.btn-outline-primary :hover {
+  background: #4a60c6;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+}
+
+.btn-group {
+  -webkit-box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+          box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.12);
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after {
+  font-family: 'FontAwesome';
+}
+
+table.dataTable thead .sorting:after {
+  content: "\F0DC";
+}
+
+table.dataTable thead .sorting_asc:after {
+  content: "\F0DE";
+}
+
+table.dataTable thead .sorting_desc:after {
+  content: "\F0DD";
+}
+
+.default-thumbnail {
+  max-width: 196px;
+}
+
+.file-hidden {
+  display: none;
+}
+
+.table-profile span {
+  color: #000000;
+}
+
+.table-profile .profile-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.table-profile .profile-email {
+  font-size: 18px;
+}
+
+img.profile-avatar {
+  max-width: 160px;
+}
+
+.profile-avatar-file,
+.profile-avatar-edit,
+.profile-input,
+.btn-save,
+.btn-cancel {
+  display: none;
+}
+
+#projectTab {
+  background: #1f497d;
+  -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+#projectTab li > a {
+  color: #ffffff;
+}
+
+#projectTab li > a.active {
+  color: #1f497d;
+}
+
+#projectTab li > a:hover {
+  color: #1f497d;
+}
+
+#projectTabContent {
+  -webkit-box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.question-list {
+  overflow: scroll;
+}
+
+.question-list li {
+  line-height: 3;
+}
+
+.question-list span {
+  color: #000000;
+}
+
+.question-list span .question {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.question-list span .answer {
+  font-size: 16px;
+}
+
+#accordion-question .btn-link {
+  color: #000000;
+  text-decoration: none;
+}
+
+#accordion-question .card-header {
+  color: #000000;
+  background: #cccccc;
+  cursor: pointer;
+}
+
+#accordion-question .card-body {
+  border: solid 1px #1f497d;
+  border-top: 0;
+  padding: 10px;
+  max-height: 200px;
+  overflow: scroll;
+}
+
+.containerChart {
+  height: 400px !important;
+}
+
+.containerChart canvas {
+  height: 400px !important;
+}
+
+.pvtUi tbody tr:nth-child(1),
+.pvtUi tbody tr:nth-child(2) {
+  display: none;
+}
+
+.pvtUi .pvtAxisContainer {
+  display: none;
+}
+
+.pvtUi .svg-container,
+.pvtUi svg {
+  width: 100% !important;
+}
+
+.modebar {
+  display: none;
+}
+
+.generate-table,
+.generate-chart {
+  overflow: scroll;
+  max-height: 400px;
+}
+
+.generate-canvas {
+  display: none;
+}
+
+.panel-report > .panel-body {
+  padding-bottom: 30px;
+}
+
+.total-data {
+  text-align: left !important;
+}
+
+.panel-heading-btn {
+  margin-top: -10px;
+  margin-right: -15px;
+}
+
+.panel-heading-btn .btn {
+  height: 40px;
+}
+
+.form-company .control-label {
+  font-size: 16px;
+}
+
+.thumbnail-dashed {
+  padding: 10px;
+  border: dashed 1px;
+  text-align: center;
+}
+
